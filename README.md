@@ -8,11 +8,10 @@ A galeria foi criada com foco em **inovação**, utilizando cores vibrantes, tip
 
 ## Funcionalidades
 
-- **Design Full-screen**: Seção inicial em tela cheia com vídeos/imagens em loop, criando um impacto visual imediato.
-- **Galeria Interativa**: Exibição de obras em layout assimétrico, com zoom suave ao passar o mouse e possibilidade de ampliar a obra.
+- **Design Full-screen**: Seção inicial em tela cheia, criando um impacto visual imediato.
+- **Galeria Interativa**: Exibição de obras em layout simétrico, com zoom suave ao passar o mouse e possibilidade de ampliar a obra.
 - **Filtros de Categorias**: Filtragem por tipos de arte (pintura, escultura, fotografia, digital, etc.).
 - **Efeitos Parallax**: Animações de scroll suave que dão profundidade e movimento à página.
-- **Seção de Artistas**: Biografia do(s) artista(s), destacando suas obras e trajetórias.
 - **Seção de Depoimentos**: Feedback de visitantes e compradores das obras.
 - **Formulário de Contato**: Simples e funcional, com animações suaves e integração com Google Maps (opcional).
 - **Responsividade**: Layout otimizado para diversos dispositivos (desktop, tablet, mobile).
@@ -22,9 +21,7 @@ A galeria foi criada com foco em **inovação**, utilizando cores vibrantes, tip
 - **HTML5** e **CSS3**: Estrutura e estilo do site, utilizando as melhores práticas para criação de páginas web modernas.
 - **JavaScript**: Interatividade, animações e funcionalidades dinâmicas da galeria.
 - **Tailwind CSS**: Framework CSS para garantir um design rápido, responsivo e elegante.
-- **GSAP** e **AOS.js**: Bibliotecas de animação para efeitos de scroll, transições e interações dinâmicas.
-- **Lightbox.js**: Para visualização ampliada das obras na galeria.
-- **Google Maps API**: Integração para exibir a localização da galeria (opcional).
+- **ScrollReveal**: Bibliotecas de animação para efeitos de scroll, transições e interações dinâmicas.
   
 ## Estrutura do Projeto
 
@@ -34,9 +31,8 @@ O site foi dividido em várias seções, cada uma com um design e uma função e
 2. **Seção Hero**: Banner inicial em tela cheia com fundo em vídeo ou imagens impactantes.
 3. **Galeria de Destaques**: Exibição das obras mais populares com layout inovador.
 4. **Categorias de Arte**: Filtros de arte que permitem ao usuário explorar as diferentes categorias.
-5. **Sobre o Artista**: Biografia e apresentação do(s) artista(s).
-6. **Depoimentos**: Seção de feedback dos visitantes.
-7. **Formulário de Contato**: Espaço para os visitantes entrarem em contato com a galeria.
+5. **Depoimentos**: Seção de feedback dos visitantes.
+6. **Formulário de Contato**: Espaço para os visitantes entrarem em contato com a galeria.
 
 ## Como Usar
 

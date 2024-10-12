@@ -42,4 +42,4 @@ O site foi dividido em várias seções, cada uma com um design e uma função e
 
 2. Pré-visualização no [link aqui](https://artplex.netlify.app/)
 
-![]()
+![](https://github.com/MOISES-DARLAN/ArtPlext/blob/main/Screenshot%202024-10-12%20153823.png)

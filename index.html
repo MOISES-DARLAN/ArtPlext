@@ -1,0 +1,240 @@
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ArtPlex Gallery - Onde a Arte Encontra a Inovação</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+<link rel="stylesheet" href="/css/principal/main.css">
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand row" href="#">
+          <img src="/imagens/principal/logo artplex.jpg" alt="ArtPlex Gallery Logo" class="logo col">
+          <h3 class="logo-text col">ArtPlex Gallery</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="16" fill="currentColor" class="bi bi-list navbar-toggler-icon" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#most-popular">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contato</a>
+            </li>
+          </ul>
+          <a href="#most-popular" class="cta-button ms-3">Explore as Obras</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <video class="hero-bg" autoplay loop muted>
+        <source src="gallery-video.mp4" type="video/mp4">
+      </video>
+      <div class="hero-content">
+        <h1 class="hero-title">Onde a Arte Encontra a Inovação</h1>
+        <a href="#most-popular" class="cta-button">Descubra a Galeria</a>
+      </div>
+    </section>
+
+    <section id="most-popular" class="container">
+      <h2 class="text-center mb-5">Obras em Destaque</h2>
+      <div class="gallery-grid">
+        <div class="art-item">
+          <img src="/imagens/principal/Obra de arte abstrata com cores vibrantes.jpg" alt="Obra de arte abstrata com cores vibrantes" width="400" height="300">
+          <div class="art-info">
+            <h3>Explosão de Cores</h3>
+            <p>por Maria Silva</p>
+          </div>
+        </div>
+        <div class="art-item">
+          <img src="/imagens/principal/Escultura moderna.jpg" alt="Escultura moderna em metal" width="400" height="300">
+          <div class="art-info">
+            <h3>Reflexões Metálicas</h3>
+            <p>por João Santos</p>
+          </div>
+        </div>
+        <div class="art-item">
+          <img src="/imagens/principal/Fotografia em preto e branco de paisagem urbana_.jpg" alt="Fotografia em preto e branco de paisagem urbana" width="400" height="300">
+          <div class="art-info">
+            <h3>Cidade Silenciosa</h3>
+            <p>por Ana Rodrigues</p>
+          </div>
+        </div>
+        <div class="art-item">
+          <img src="/imagens/principal/Arte digital.jpg" alt="Arte digital futurista" width="400" height="300">
+          <div class="art-info">
+            <h3>Nexus Digital</h3>
+            <p>por Carlos Mendes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="container-fluid">
+      <h2 class="text-center mb-5">Explore por Categoria</h2>
+      <div class="text-center mb-4">
+        <button class="category-button">Pintura</button>
+        <button class="category-button">Escultura</button>
+        <button class="category-button">Fotografia</button>
+        <button class="category-button">Arte Digital</button>
+      </div>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="art-item">
+            <img src="/imagens/principal/Pintura impressionista de um jardin.jpg" alt="Pintura impressionista de um jardim" width="300" height="200">
+            <div class="art-info">
+              <h3>Jardim de Monet</h3>
+              <p>Pintura</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="art-item">
+            <img src="/imagens/principal//Escultura abstrata em mármore.jpg" alt="Escultura abstrata em mármore" width="300" height="200">
+            <div class="art-info">
+              <h3>Forma Etérea</h3>
+              <p>Escultura</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="art-item">
+            <img src="/imagens/principal/Fotografia de natureza dramática.jpg" alt="Fotografia de natureza dramática" width="300" height="200">
+            <div class="art-info">
+              <h3>Tempestade Iminente</h3>
+              <p>Fotografia</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="art-item">
+            <img src="/imagens/principal/Arte digital surreal.jpg" alt="Arte digital surreal" width="300" height="200">
+            <div class="art-info">
+              <h3>Dimensões Oníricas</h3>
+              <p>Arte Digital</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 px-5">
+          <h2 class="mb-4">Sobre a ArtPlex Gallery</h2>
+          <p c>A ArtPlex Gallery é um espaço dedicado à celebração da arte contemporânea em todas as suas formas. Fundada em 2010 por um grupo de artistas visionários, nossa missão é proporcionar uma plataforma para artistas emergentes e estabelecidos apresentarem obras que desafiam, inspiram e provocam reflexão.</p>
+          <p>Com uma curadoria cuidadosa e uma abordagem inovadora para exposições, nos esforçamos para criar experiências imersivas que conectam o público com a arte de maneiras significativas e memoráveis.</p>
+        </div>
+        <div class="col-md-6 px-5">
+          <img src="/imagens/principal/Interior moderno e elegante da ArtPlex.jpg" alt="Interior moderno e elegante da ArtPlex Gallery" width="600" height="400" class="artist-image">
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="container-fluid">
+      <h2 class="text-center mb-5">O que Dizem Nossos Visitantes</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial-item">
+            <img src="/imagens/principal/pessoa 1.jpg" alt="Retrato de visitante satisfeito" width="100" height="100" class="testimonial-image">
+            <p>"Uma experiência verdadeiramente transformadora. A curadoria da ArtPlex é simplesmente excepcional!"</p>
+            <h4>Mariana Costa</h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-item">
+            <img src="/imagens/principal/pessoa 2.jpg" alt="Retrato de crítico de arte" width="100" height="100" class="testimonial-image">
+            <p>"A ArtPlex está na vanguarda da cena artística contemporânea. Sempre saio inspirado após cada visita."</p>
+            <h4>Ricardo Alves</h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-item">
+            <img src="/imagens/principal/pessoa 3.jpg" alt="Retrato de artista emergente" width="100" height="100" class="testimonial-image">
+            <p>"Como artista, encontrei na ArtPlex um lar para minha criatividade. É um espaço que realmente valoriza a inovação."</p>
+            <h4>Camila Santos</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container px-5">
+      <h2 class="text-center mb-5">Entre em Contato</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Seu Nome">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Seu E-mail">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="5" placeholder="Sua Mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="map" style="height: 300px;">
+            <img src="/imagens/principal/Mapa mostrando a localização da ArtPlex Gallery.jpg" alt="Mapa mostrando a localização da ArtPlex Gallery" width="100%" height="100%" style="object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>Links Rápidos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#most-popular" class="footer-link">Galeria</a></li>
+            <li><a href="#about" class="footer-link">Sobre</a></li>
+            <li><a href="#contact" class="footer-link">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Siga-nos</h5>
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i>facebook</a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Informações Legais</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-link">Termos de Uso</a></li>
+            <li><a href="#" class="footer-link">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p>&copy; 2024 ArtPlex Gallery. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+ <script src="/js/principal/main.js"></script>
+</body>
+</html>

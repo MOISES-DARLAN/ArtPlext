@@ -39,3 +39,7 @@ O site foi dividido em várias seções, cada uma com um design e uma função e
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+2. Pré-visualização no [link aqui](https://artplex.netlify.app/)
+
+![]()
